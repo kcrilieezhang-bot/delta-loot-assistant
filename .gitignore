@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+.venv-test/
+*.sqlite3
+dist/
+build/
+*.spec~
+*.log
+user-data/
+screenshots/
+installer-output/

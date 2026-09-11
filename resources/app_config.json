@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "supported_resolution": [1920, 1080],
+  "supported_language": "zh-CN",
+  "supported_ui_scale": 1.0,
+  "hotkeys": {
+    "capture": "F8",
+    "solve": "F9",
+    "hide": "ESC"
+  },
+  "recognition": {
+    "high_confidence": 0.9,
+    "medium_confidence": 0.65,
+    "template_size": 64,
+    "layout_profile": "delta_force_1080p_zh_v1"
+  },
+  "solver": {
+    "max_time_seconds": 5.0,
+    "worker_count": 8
+  }
+}
+

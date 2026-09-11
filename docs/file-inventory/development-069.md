@@ -1,0 +1,512 @@
+# 逐文件用途清单：development 第 69 册
+
+根目录：`C:\Users\ASUS\Desktop\delta force`。核对日期：2026-09-08。
+
+每行对应一个实际文件。第三方说明按所属库和文件类型归类，不是逐行源码审计。
+只列举路径，不读取凭证内容。文件清单自身不递归纳入清单。
+
+[返回索引](<C:/Users/ASUS/Desktop/delta force/delta-loot-assistant/docs/file-inventory/INDEX.md>)
+
+| 相对于上述根目录的文件路径 | 用途 |
+|---|---|
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/command/__pycache__/test.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/command/_requirestxt.py` | Python 包构建支持：_requirestxt.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/command/alias.py` | Python 包构建支持：alias.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/command/bdist_egg.py` | Python 包构建支持：bdist_egg.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/command/bdist_rpm.py` | Python 包构建支持：bdist_rpm.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/command/bdist_wheel.py` | Python 包构建支持：bdist_wheel.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/command/build.py` | Python 包构建支持：build.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/command/build_clib.py` | Python 包构建支持：build_clib.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/command/build_ext.py` | Python 包构建支持：build_ext.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/command/build_py.py` | Python 包构建支持：build_py.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/command/develop.py` | Python 包构建支持：develop.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/command/dist_info.py` | Python 包构建支持：dist_info.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/command/easy_install.py` | Python 包构建支持：easy_install.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/command/editable_wheel.py` | Python 包构建支持：editable_wheel.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/command/egg_info.py` | Python 包构建支持：egg_info.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/command/install.py` | Python 包构建支持：install.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/command/install_egg_info.py` | Python 包构建支持：install_egg_info.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/command/install_lib.py` | Python 包构建支持：install_lib.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/command/install_scripts.py` | Python 包构建支持：install_scripts.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/command/rotate.py` | Python 包构建支持：rotate.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/command/saveopts.py` | Python 包构建支持：saveopts.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/command/sdist.py` | Python 包构建支持：sdist.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/command/setopt.py` | Python 包构建支持：setopt.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/command/test.py` | Python 包构建支持：test.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/compat/__init__.py` | Python 包构建支持：__init__.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/compat/__pycache__/__init__.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/compat/__pycache__/py310.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/compat/__pycache__/py311.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/compat/__pycache__/py312.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/compat/__pycache__/py39.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/compat/py310.py` | Python 包构建支持：py310.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/compat/py311.py` | Python 包构建支持：py311.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/compat/py312.py` | Python 包构建支持：py312.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/compat/py39.py` | Python 包构建支持：py39.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/config/__init__.py` | Python 包构建支持：__init__.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/config/__pycache__/__init__.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/config/__pycache__/_apply_pyprojecttoml.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/config/__pycache__/expand.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/config/__pycache__/pyprojecttoml.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/config/__pycache__/setupcfg.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/config/_apply_pyprojecttoml.py` | Python 包构建支持：_apply_pyprojecttoml.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/config/_validate_pyproject/__init__.py` | Python 包构建支持：__init__.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/config/_validate_pyproject/__pycache__/__init__.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/config/_validate_pyproject/__pycache__/error_reporting.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/config/_validate_pyproject/__pycache__/extra_validations.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/config/_validate_pyproject/__pycache__/fastjsonschema_exceptions.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/config/_validate_pyproject/__pycache__/fastjsonschema_validations.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/config/_validate_pyproject/__pycache__/formats.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/config/_validate_pyproject/error_reporting.py` | Python 包构建支持：error_reporting.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/config/_validate_pyproject/extra_validations.py` | Python 包构建支持：extra_validations.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/config/_validate_pyproject/fastjsonschema_exceptions.py` | Python 包构建支持：fastjsonschema_exceptions.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/config/_validate_pyproject/fastjsonschema_validations.py` | Python 包构建支持：fastjsonschema_validations.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/config/_validate_pyproject/formats.py` | Python 包构建支持：formats.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/config/_validate_pyproject/NOTICE` | Python 包构建支持：NOTICE 的配套资源/配置文件（仅按路径分类，未验证内部内容）；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/config/distutils.schema.json` | Python 包构建支持：distutils.schema.json 的结构化配置/资源；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/config/expand.py` | Python 包构建支持：expand.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/config/NOTICE` | Python 包构建支持：NOTICE 的配套资源/配置文件（仅按路径分类，未验证内部内容）；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/config/pyprojecttoml.py` | Python 包构建支持：pyprojecttoml.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/config/setupcfg.py` | Python 包构建支持：setupcfg.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/config/setuptools.schema.json` | Python 包构建支持：setuptools.schema.json 的结构化配置/资源；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/depends.py` | Python 包构建支持：depends.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/discovery.py` | Python 包构建支持：discovery.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/dist.py` | Python 包构建支持：dist.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/errors.py` | Python 包构建支持：errors.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/extension.py` | Python 包构建支持：extension.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/glob.py` | Python 包构建支持：glob.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/gui-32.exe` | Python 包构建支持：gui-32.exe 的工具可执行程序；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/gui-64.exe` | Python 包构建支持：gui-64.exe 的工具可执行程序；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/gui-arm64.exe` | Python 包构建支持：gui-arm64.exe 的工具可执行程序；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/gui.exe` | Python 包构建支持：gui.exe 的工具可执行程序；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/installer.py` | Python 包构建支持：installer.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/launch.py` | Python 包构建支持：launch.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/launcher manifest.xml` | Python 包构建支持：launcher manifest.xml 的配套资源/配置文件（仅按路径分类，未验证内部内容）；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/logging.py` | Python 包构建支持：logging.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/modified.py` | Python 包构建支持：modified.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/monkey.py` | Python 包构建支持：monkey.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/msvc.py` | Python 包构建支持：msvc.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/namespaces.py` | Python 包构建支持：namespaces.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/script (dev).tmpl` | Python 包构建支持：script (dev).tmpl 的配套资源/配置文件（仅按路径分类，未验证内部内容）；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/script.tmpl` | Python 包构建支持：script.tmpl 的配套资源/配置文件（仅按路径分类，未验证内部内容）；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/__init__.py` | Python 包构建支持：__init__.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/__pycache__/__init__.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/__pycache__/contexts.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/__pycache__/environment.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/__pycache__/fixtures.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/__pycache__/mod_with_constant.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/__pycache__/namespaces.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/__pycache__/script-with-bom.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/__pycache__/test_archive_util.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/__pycache__/test_bdist_deprecations.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/__pycache__/test_bdist_egg.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/__pycache__/test_bdist_wheel.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/__pycache__/test_build.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/__pycache__/test_build_clib.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/__pycache__/test_build_ext.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/__pycache__/test_build_meta.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/__pycache__/test_build_py.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/__pycache__/test_config_discovery.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/__pycache__/test_core_metadata.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/__pycache__/test_depends.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/__pycache__/test_develop.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/__pycache__/test_dist.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/__pycache__/test_dist_info.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/__pycache__/test_distutils_adoption.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/__pycache__/test_editable_install.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/__pycache__/test_egg_info.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/__pycache__/test_extern.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/__pycache__/test_find_packages.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/__pycache__/test_find_py_modules.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/__pycache__/test_glob.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/__pycache__/test_install_scripts.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/__pycache__/test_logging.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/__pycache__/test_manifest.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/__pycache__/test_namespaces.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/__pycache__/test_scripts.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/__pycache__/test_sdist.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/__pycache__/test_setopt.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/__pycache__/test_setuptools.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/__pycache__/test_shutil_wrapper.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/__pycache__/test_unicode_utils.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/__pycache__/test_virtualenv.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/__pycache__/test_warnings.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/__pycache__/test_wheel.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/__pycache__/test_windows_wrappers.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/__pycache__/text.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/__pycache__/textwrap.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/compat/__init__.py` | Python 包构建支持：__init__.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/compat/__pycache__/__init__.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/compat/__pycache__/py39.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/compat/py39.py` | Python 包构建支持：py39.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/config/__init__.py` | Python 包构建支持：__init__.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/config/__pycache__/__init__.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/config/__pycache__/test_apply_pyprojecttoml.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/config/__pycache__/test_expand.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/config/__pycache__/test_pyprojecttoml.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/config/__pycache__/test_pyprojecttoml_dynamic_deps.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/config/__pycache__/test_setupcfg.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/config/downloads/__init__.py` | Python 包构建支持：__init__.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/config/downloads/__pycache__/__init__.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/config/downloads/__pycache__/preload.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/config/downloads/preload.py` | Python 包构建支持：preload.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/config/setupcfg_examples.txt` | Python 包构建支持：setupcfg_examples.txt 的说明/字典/数据资源；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/config/test_apply_pyprojecttoml.py` | Python 包构建支持：test_apply_pyprojecttoml.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/config/test_expand.py` | Python 包构建支持：test_expand.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/config/test_pyprojecttoml.py` | Python 包构建支持：test_pyprojecttoml.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/config/test_pyprojecttoml_dynamic_deps.py` | Python 包构建支持：test_pyprojecttoml_dynamic_deps.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/config/test_setupcfg.py` | Python 包构建支持：test_setupcfg.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/contexts.py` | Python 包构建支持：contexts.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/environment.py` | Python 包构建支持：environment.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/fixtures.py` | Python 包构建支持：fixtures.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/indexes/test_links_priority/external.html` | Python 包构建支持：external.html 的帮助/报告页面；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/indexes/test_links_priority/simple/foobar/index.html` | Python 包构建支持：index.html 的帮助/报告页面；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/integration/__init__.py` | Python 包构建支持：__init__.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/integration/__pycache__/__init__.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/integration/__pycache__/helpers.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/integration/__pycache__/test_pbr.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/integration/__pycache__/test_pip_install_sdist.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/integration/helpers.py` | Python 包构建支持：helpers.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/integration/test_pbr.py` | Python 包构建支持：test_pbr.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/integration/test_pip_install_sdist.py` | Python 包构建支持：test_pip_install_sdist.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/mod_with_constant.py` | Python 包构建支持：mod_with_constant.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/namespaces.py` | Python 包构建支持：namespaces.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/script-with-bom.py` | Python 包构建支持：script-with-bom.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/test_archive_util.py` | Python 包构建支持：test_archive_util.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/test_bdist_deprecations.py` | Python 包构建支持：test_bdist_deprecations.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/test_bdist_egg.py` | Python 包构建支持：test_bdist_egg.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/test_bdist_wheel.py` | Python 包构建支持：test_bdist_wheel.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/test_build.py` | Python 包构建支持：test_build.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/test_build_clib.py` | Python 包构建支持：test_build_clib.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/test_build_ext.py` | Python 包构建支持：test_build_ext.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/test_build_meta.py` | Python 包构建支持：test_build_meta.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/test_build_py.py` | Python 包构建支持：test_build_py.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/test_config_discovery.py` | Python 包构建支持：test_config_discovery.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/test_core_metadata.py` | Python 包构建支持：test_core_metadata.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/test_depends.py` | Python 包构建支持：test_depends.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/test_develop.py` | Python 包构建支持：test_develop.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/test_dist.py` | Python 包构建支持：test_dist.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/test_dist_info.py` | Python 包构建支持：test_dist_info.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/test_distutils_adoption.py` | Python 包构建支持：test_distutils_adoption.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/test_editable_install.py` | Python 包构建支持：test_editable_install.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/test_egg_info.py` | Python 包构建支持：test_egg_info.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/test_extern.py` | Python 包构建支持：test_extern.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/test_find_packages.py` | Python 包构建支持：test_find_packages.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/test_find_py_modules.py` | Python 包构建支持：test_find_py_modules.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/test_glob.py` | Python 包构建支持：test_glob.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/test_install_scripts.py` | Python 包构建支持：test_install_scripts.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/test_logging.py` | Python 包构建支持：test_logging.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/test_manifest.py` | Python 包构建支持：test_manifest.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/test_namespaces.py` | Python 包构建支持：test_namespaces.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/test_scripts.py` | Python 包构建支持：test_scripts.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/test_sdist.py` | Python 包构建支持：test_sdist.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/test_setopt.py` | Python 包构建支持：test_setopt.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/test_setuptools.py` | Python 包构建支持：test_setuptools.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/test_shutil_wrapper.py` | Python 包构建支持：test_shutil_wrapper.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/test_unicode_utils.py` | Python 包构建支持：test_unicode_utils.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/test_virtualenv.py` | Python 包构建支持：test_virtualenv.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/test_warnings.py` | Python 包构建支持：test_warnings.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/test_wheel.py` | Python 包构建支持：test_wheel.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/test_windows_wrappers.py` | Python 包构建支持：test_windows_wrappers.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/text.py` | Python 包构建支持：text.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/tests/textwrap.py` | Python 包构建支持：textwrap.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/unicode_utils.py` | Python 包构建支持：unicode_utils.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/version.py` | Python 包构建支持：version.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/warnings.py` | Python 包构建支持：warnings.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/wheel.py` | Python 包构建支持：wheel.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/setuptools/windows_support.py` | Python 包构建支持：windows_support.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely-2.1.2.dist-info/DELVEWHEEL` | Python/第三方运行环境：DELVEWHEEL 的配套资源/配置文件（仅按路径分类，未验证内部内容）；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely-2.1.2.dist-info/INSTALLER` | Python 包安装元数据：版本、依赖、文件清单或安装来源 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely-2.1.2.dist-info/licenses/LICENSE.txt` | 所属第三方库的许可证/版权说明，发布时应保留 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely-2.1.2.dist-info/licenses/LICENSE_GEOS` | 所属第三方库的许可证/版权说明，发布时应保留 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely-2.1.2.dist-info/licenses/LICENSE_win32` | 所属第三方库的许可证/版权说明，发布时应保留 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely-2.1.2.dist-info/METADATA` | Python 包安装元数据：版本、依赖、文件清单或安装来源 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely-2.1.2.dist-info/RECORD` | Python 包安装元数据：版本、依赖、文件清单或安装来源 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely-2.1.2.dist-info/REQUESTED` | Python/第三方运行环境：REQUESTED 的配套资源/配置文件（仅按路径分类，未验证内部内容）；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely-2.1.2.dist-info/top_level.txt` | Python/第三方运行环境：top_level.txt 的说明/字典/数据资源；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely-2.1.2.dist-info/WHEEL` | Python 包安装元数据：版本、依赖、文件清单或安装来源 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely.libs/geos-ae6efa0782962b98e358f10ea539ae5f.dll` | OCR 几何运算：geos-ae6efa0782962b98e358f10ea539ae5f.dll 的动态链接运行库；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely.libs/geos_c-072b7a9224d16d3e4ab2395bb855b2d3.dll` | OCR 几何运算：geos_c-072b7a9224d16d3e4ab2395bb855b2d3.dll 的动态链接运行库；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely.libs/msvcp140-90bc62d4947a5878f1dc1057312f3be2.dll` | OCR 几何运算：msvcp140-90bc62d4947a5878f1dc1057312f3be2.dll 的动态链接运行库；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/__init__.py` | OCR 几何运算：__init__.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/__pycache__/__init__.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/__pycache__/_coverage.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/__pycache__/_enum.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/__pycache__/_geometry.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/__pycache__/_ragged_array.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/__pycache__/_version.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/__pycache__/affinity.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/__pycache__/conftest.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/__pycache__/constructive.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/__pycache__/coordinates.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/__pycache__/coords.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/__pycache__/creation.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/__pycache__/decorators.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/__pycache__/errors.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/__pycache__/geos.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/__pycache__/io.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/__pycache__/linear.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/__pycache__/measurement.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/__pycache__/ops.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/__pycache__/plotting.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/__pycache__/predicates.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/__pycache__/prepared.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/__pycache__/set_operations.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/__pycache__/speedups.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/__pycache__/strtree.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/__pycache__/testing.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/__pycache__/validation.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/__pycache__/wkb.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/__pycache__/wkt.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/_coverage.py` | OCR 几何运算：_coverage.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/_enum.py` | OCR 几何运算：_enum.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/_geometry.py` | OCR 几何运算：_geometry.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/_geometry_helpers.cp312-win_amd64.pyd` | OCR 几何运算：_geometry_helpers.cp312-win_amd64.pyd 的Windows Python 原生扩展；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/_geos.cp312-win_amd64.pyd` | OCR 几何运算：_geos.cp312-win_amd64.pyd 的Windows Python 原生扩展；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/_geos.pxd` | OCR 几何运算：_geos.pxd 的Cython 类型接口；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/_pygeos_api.pxd` | OCR 几何运算：_pygeos_api.pxd 的Cython 类型接口；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/_ragged_array.py` | OCR 几何运算：_ragged_array.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/_version.py` | OCR 几何运算：_version.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/affinity.py` | OCR 几何运算：affinity.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/algorithms/__init__.py` | OCR 几何运算：__init__.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/algorithms/__pycache__/__init__.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/algorithms/__pycache__/_oriented_envelope.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/algorithms/__pycache__/cga.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/algorithms/__pycache__/polylabel.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/algorithms/_oriented_envelope.py` | OCR 几何运算：_oriented_envelope.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/algorithms/cga.py` | OCR 几何运算：cga.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/algorithms/polylabel.py` | OCR 几何运算：polylabel.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/conftest.py` | OCR 几何运算：conftest.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/constructive.py` | OCR 几何运算：constructive.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/coordinates.py` | OCR 几何运算：coordinates.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/coords.py` | OCR 几何运算：coords.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/creation.py` | OCR 几何运算：creation.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/decorators.py` | OCR 几何运算：decorators.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/errors.py` | OCR 几何运算：errors.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/geometry/__init__.py` | OCR 几何运算：__init__.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/geometry/__pycache__/__init__.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/geometry/__pycache__/base.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/geometry/__pycache__/collection.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/geometry/__pycache__/geo.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/geometry/__pycache__/linestring.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/geometry/__pycache__/multilinestring.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/geometry/__pycache__/multipoint.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/geometry/__pycache__/multipolygon.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/geometry/__pycache__/point.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/geometry/__pycache__/polygon.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/geometry/base.py` | OCR 几何运算：base.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/geometry/collection.py` | OCR 几何运算：collection.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/geometry/geo.py` | OCR 几何运算：geo.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/geometry/linestring.py` | OCR 几何运算：linestring.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/geometry/multilinestring.py` | OCR 几何运算：multilinestring.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/geometry/multipoint.py` | OCR 几何运算：multipoint.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/geometry/multipolygon.py` | OCR 几何运算：multipolygon.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/geometry/point.py` | OCR 几何运算：point.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/geometry/polygon.py` | OCR 几何运算：polygon.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/geos.py` | OCR 几何运算：geos.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/io.py` | OCR 几何运算：io.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/lib.cp312-win_amd64.pyd` | OCR 几何运算：lib.cp312-win_amd64.pyd 的Windows Python 原生扩展；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/linear.py` | OCR 几何运算：linear.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/measurement.py` | OCR 几何运算：measurement.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/ops.py` | OCR 几何运算：ops.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/plotting.py` | OCR 几何运算：plotting.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/predicates.py` | OCR 几何运算：predicates.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/prepared.py` | OCR 几何运算：prepared.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/set_operations.py` | OCR 几何运算：set_operations.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/speedups.py` | OCR 几何运算：speedups.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/strtree.py` | OCR 几何运算：strtree.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/testing.py` | OCR 几何运算：testing.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/__init__.py` | OCR 几何运算：__init__.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/__pycache__/__init__.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/__pycache__/common.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/__pycache__/test_constructive.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/__pycache__/test_coordinates.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/__pycache__/test_coverage.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/__pycache__/test_creation.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/__pycache__/test_creation_indices.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/__pycache__/test_decorators.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/__pycache__/test_geometry.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/__pycache__/test_io.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/__pycache__/test_linear.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/__pycache__/test_measurement.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/__pycache__/test_misc.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/__pycache__/test_plotting.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/__pycache__/test_predicates.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/__pycache__/test_ragged_array.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/__pycache__/test_set_operations.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/__pycache__/test_strtree.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/__pycache__/test_testing.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/common.py` | OCR 几何运算：common.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/geometry/__init__.py` | OCR 几何运算：__init__.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/geometry/__pycache__/__init__.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/geometry/__pycache__/test_collection.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/geometry/__pycache__/test_coords.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/geometry/__pycache__/test_decimal.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/geometry/__pycache__/test_emptiness.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/geometry/__pycache__/test_equality.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/geometry/__pycache__/test_format.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/geometry/__pycache__/test_geometry_base.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/geometry/__pycache__/test_hash.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/geometry/__pycache__/test_linestring.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/geometry/__pycache__/test_multi.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/geometry/__pycache__/test_multilinestring.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/geometry/__pycache__/test_multipoint.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/geometry/__pycache__/test_multipolygon.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/geometry/__pycache__/test_point.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/geometry/__pycache__/test_polygon.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/geometry/test_collection.py` | OCR 几何运算：test_collection.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/geometry/test_coords.py` | OCR 几何运算：test_coords.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/geometry/test_decimal.py` | OCR 几何运算：test_decimal.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/geometry/test_emptiness.py` | OCR 几何运算：test_emptiness.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/geometry/test_equality.py` | OCR 几何运算：test_equality.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/geometry/test_format.py` | OCR 几何运算：test_format.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/geometry/test_geometry_base.py` | OCR 几何运算：test_geometry_base.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/geometry/test_hash.py` | OCR 几何运算：test_hash.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/geometry/test_linestring.py` | OCR 几何运算：test_linestring.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/geometry/test_multi.py` | OCR 几何运算：test_multi.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/geometry/test_multilinestring.py` | OCR 几何运算：test_multilinestring.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/geometry/test_multipoint.py` | OCR 几何运算：test_multipoint.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/geometry/test_multipolygon.py` | OCR 几何运算：test_multipolygon.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/geometry/test_point.py` | OCR 几何运算：test_point.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/geometry/test_polygon.py` | OCR 几何运算：test_polygon.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/__init__.py` | OCR 几何运算：__init__.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/__pycache__/__init__.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/__pycache__/conftest.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/__pycache__/test_affinity.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/__pycache__/test_box.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/__pycache__/test_buffer.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/__pycache__/test_cga.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/__pycache__/test_clip_by_rect.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/__pycache__/test_create_inconsistent_dimensionality.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/__pycache__/test_delaunay.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/__pycache__/test_empty_polygons.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/__pycache__/test_equality.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/__pycache__/test_geointerface.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/__pycache__/test_invalid_geometries.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/__pycache__/test_linear_referencing.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/__pycache__/test_linemerge.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/__pycache__/test_locale.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/__pycache__/test_make_valid.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/__pycache__/test_mapping.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/__pycache__/test_minimum_clearance.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/__pycache__/test_ndarrays.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/__pycache__/test_nearest.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/__pycache__/test_operations.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/__pycache__/test_operators.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/__pycache__/test_orient.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/__pycache__/test_parallel_offset.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/__pycache__/test_persist.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/__pycache__/test_pickle.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/__pycache__/test_polygonize.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/__pycache__/test_polylabel.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/__pycache__/test_predicates.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/__pycache__/test_prepared.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/__pycache__/test_products_z.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/__pycache__/test_shape.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/__pycache__/test_shared_paths.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/__pycache__/test_singularity.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/__pycache__/test_snap.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/__pycache__/test_split.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/__pycache__/test_substring.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/__pycache__/test_svg.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/__pycache__/test_transform.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/__pycache__/test_union.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/__pycache__/test_validation.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/__pycache__/test_vectorized.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/__pycache__/test_voronoi_diagram.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/__pycache__/test_wkb.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/__pycache__/test_wkt.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/__pycache__/threading_test.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/conftest.py` | OCR 几何运算：conftest.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/test_affinity.py` | OCR 几何运算：test_affinity.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/test_box.py` | OCR 几何运算：test_box.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/test_buffer.py` | OCR 几何运算：test_buffer.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/test_cga.py` | OCR 几何运算：test_cga.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/test_clip_by_rect.py` | OCR 几何运算：test_clip_by_rect.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/test_create_inconsistent_dimensionality.py` | OCR 几何运算：test_create_inconsistent_dimensionality.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/test_delaunay.py` | OCR 几何运算：test_delaunay.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/test_empty_polygons.py` | OCR 几何运算：test_empty_polygons.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/test_equality.py` | OCR 几何运算：test_equality.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/test_geointerface.py` | OCR 几何运算：test_geointerface.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/test_invalid_geometries.py` | OCR 几何运算：test_invalid_geometries.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/test_linear_referencing.py` | OCR 几何运算：test_linear_referencing.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/test_linemerge.py` | OCR 几何运算：test_linemerge.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/test_locale.py` | OCR 几何运算：test_locale.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/test_make_valid.py` | OCR 几何运算：test_make_valid.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/test_mapping.py` | OCR 几何运算：test_mapping.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/test_minimum_clearance.py` | OCR 几何运算：test_minimum_clearance.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/test_ndarrays.py` | OCR 几何运算：test_ndarrays.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/test_nearest.py` | OCR 几何运算：test_nearest.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/test_operations.py` | OCR 几何运算：test_operations.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/test_operators.py` | OCR 几何运算：test_operators.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/test_orient.py` | OCR 几何运算：test_orient.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/test_parallel_offset.py` | OCR 几何运算：test_parallel_offset.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/test_persist.py` | OCR 几何运算：test_persist.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/test_pickle.py` | OCR 几何运算：test_pickle.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/test_polygonize.py` | OCR 几何运算：test_polygonize.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/test_polylabel.py` | OCR 几何运算：test_polylabel.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/test_predicates.py` | OCR 几何运算：test_predicates.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/test_prepared.py` | OCR 几何运算：test_prepared.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/test_products_z.py` | OCR 几何运算：test_products_z.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/test_shape.py` | OCR 几何运算：test_shape.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/test_shared_paths.py` | OCR 几何运算：test_shared_paths.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/test_singularity.py` | OCR 几何运算：test_singularity.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/test_snap.py` | OCR 几何运算：test_snap.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/test_split.py` | OCR 几何运算：test_split.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/test_substring.py` | OCR 几何运算：test_substring.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/test_svg.py` | OCR 几何运算：test_svg.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/test_transform.py` | OCR 几何运算：test_transform.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/test_union.py` | OCR 几何运算：test_union.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/test_validation.py` | OCR 几何运算：test_validation.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/test_vectorized.py` | OCR 几何运算：test_vectorized.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/test_voronoi_diagram.py` | OCR 几何运算：test_voronoi_diagram.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/test_wkb.py` | OCR 几何运算：test_wkb.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/test_wkt.py` | OCR 几何运算：test_wkt.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/legacy/threading_test.py` | OCR 几何运算：threading_test.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/test_constructive.py` | OCR 几何运算：test_constructive.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/test_coordinates.py` | OCR 几何运算：test_coordinates.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/test_coverage.py` | OCR 几何运算：test_coverage.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/test_creation.py` | OCR 几何运算：test_creation.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/test_creation_indices.py` | OCR 几何运算：test_creation_indices.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/test_decorators.py` | OCR 几何运算：test_decorators.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/test_geometry.py` | OCR 几何运算：test_geometry.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/test_io.py` | OCR 几何运算：test_io.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/test_linear.py` | OCR 几何运算：test_linear.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/test_measurement.py` | OCR 几何运算：test_measurement.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/test_misc.py` | OCR 几何运算：test_misc.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/test_plotting.py` | OCR 几何运算：test_plotting.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/test_predicates.py` | OCR 几何运算：test_predicates.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/test_ragged_array.py` | OCR 几何运算：test_ragged_array.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/test_set_operations.py` | OCR 几何运算：test_set_operations.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/test_strtree.py` | OCR 几何运算：test_strtree.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/tests/test_testing.py` | OCR 几何运算：test_testing.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/validation.py` | OCR 几何运算：validation.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/vectorized/__init__.py` | OCR 几何运算：__init__.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/vectorized/__pycache__/__init__.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/wkb.py` | OCR 几何运算：wkb.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shapely/wkt.py` | OCR 几何运算：wkt.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shiboken6-6.8.3.dist-info/INSTALLER` | Python 包安装元数据：版本、依赖、文件清单或安装来源 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shiboken6-6.8.3.dist-info/LicenseRef-Qt-Commercial.txt` | 所属第三方库的许可证/版权说明，发布时应保留 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shiboken6-6.8.3.dist-info/METADATA` | Python 包安装元数据：版本、依赖、文件清单或安装来源 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shiboken6-6.8.3.dist-info/RECORD` | Python 包安装元数据：版本、依赖、文件清单或安装来源 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shiboken6-6.8.3.dist-info/top_level.txt` | Python/第三方运行环境：top_level.txt 的说明/字典/数据资源；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shiboken6-6.8.3.dist-info/WHEEL` | Python 包安装元数据：版本、依赖、文件清单或安装来源 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shiboken6/__init__.py` | Qt 的 Python/C++ 绑定支持：__init__.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shiboken6/__pycache__/__init__.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shiboken6/__pycache__/_config.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shiboken6/__pycache__/_git_shiboken_module_version.cpython-312.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shiboken6/_config.py` | Qt 的 Python/C++ 绑定支持：_config.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shiboken6/_git_shiboken_module_version.py` | Qt 的 Python/C++ 绑定支持：_git_shiboken_module_version.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shiboken6/concrt140.dll` | Qt 的 Python/C++ 绑定支持：concrt140.dll 的动态链接运行库；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shiboken6/msvcp140.dll` | Qt 的 Python/C++ 绑定支持：msvcp140.dll 的动态链接运行库；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shiboken6/msvcp140_1.dll` | Qt 的 Python/C++ 绑定支持：msvcp140_1.dll 的动态链接运行库；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shiboken6/msvcp140_2.dll` | Qt 的 Python/C++ 绑定支持：msvcp140_2.dll 的动态链接运行库；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shiboken6/msvcp140_codecvt_ids.dll` | Qt 的 Python/C++ 绑定支持：msvcp140_codecvt_ids.dll 的动态链接运行库；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shiboken6/py.typed` | Qt 的 Python/C++ 绑定支持：py.typed 的配套资源/配置文件（仅按路径分类，未验证内部内容）；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shiboken6/Shiboken.pyd` | Qt 的 Python/C++ 绑定支持：Shiboken.pyd 的Windows Python 原生扩展；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shiboken6/Shiboken.pyi` | Qt 的 Python/C++ 绑定支持：Shiboken.pyi 的类型接口说明；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shiboken6/shiboken6.abi3.dll` | Qt 的 Python/C++ 绑定支持：shiboken6.abi3.dll 的动态链接运行库；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shiboken6/shiboken6.abi3.lib` | Qt 的 Python/C++ 绑定支持：shiboken6.abi3.lib 的链接库；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shiboken6/vcamp140.dll` | Qt 的 Python/C++ 绑定支持：vcamp140.dll 的动态链接运行库；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv/Lib/site-packages/shiboken6/vccorlib140.dll` | Qt 的 Python/C++ 绑定支持：vccorlib140.dll 的动态链接运行库；非本项目手写物品规则 |
+

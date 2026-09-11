@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>三角洲 · 物资核价台</title><meta name="description" content="本机截图识别、人工纠错与可追溯的物资参考价值排名。">
+<link rel="stylesheet" href="/app.css"><script defer src="/app.js"></script></head>
+<body>
+<header><div class="brand"><span class="brand-mark">Δ</span><div><strong>物资核价台</strong><span class="sub">DELTA LOOT / LOCAL REVIEW</span></div></div>
+<div class="local"><span class="dot"></span>本地识别 · 按需 AI<button id="open-llm" type="button">AI 模型设置</button></div></header>
+<main>
+<section class="topline"><div><span class="eyebrow">物资估价 / 替换助手</span><h1>全部物资，一眼比价。</h1><p>默认采用识别结果；发现错误时，点物品旁的“纠错”即可。</p></div>
+<div class="snapshot"><span>本地价格快照</span><strong id="price-date">正在读取…</strong><small id="price-meta">不使用付费接口</small></div></section>
+<div id="notice" role="status" aria-live="polite" class="notice">上传原始截图，全图查找物品名称；不依赖固定背包位置。完整图片只在本机临时保留。</div>
+<section class="toolbar">
+<label class="upload button primary">＋ 上传截图<input id="file" type="file" accept="image/png,image/jpeg"></label>
+<label>识别方式<select id="profile"><option value="auto">全图增强（分块放大补扫）</option><option value="manual">仅手动框选</option><option value="default">首张示例辅助布局</option><option value="sample02">02.png 辅助布局</option></select></label>
+<label>排名范围<select id="scope" disabled><option value="all">全部物品（身上＋地上）</option><option value="backpack">背包可见物品</option><option value="safe_box">安全箱可见物品</option><option value="loot">右侧散落物</option><option value="carried">身上已录入物品（不含散落物）</option></select></label>
+<button id="enhance" disabled>增强补扫（保留纠错）</button><button id="add" disabled>框选补一项</button><span class="small">单张 ≤ 15 MB · PNG / JPG</span>
+</section>
+<section class="stats"><div><span>物资数量</span><strong id="count">—</strong><small>当前列表</small></div><div><span>地上物资</span><strong id="pending">—</strong><small>可比较的地上来源</small></div><div><span>列表总估价</span><strong id="total">—</strong><small id="total-note">含地上物资，不等于已携带收益</small></div><div><span>建议替换增益</span><strong id="trust">—</strong><small id="trust-note">按当前价格及占格数计算</small></div></section>
+<section class="panel results"><div class="panel-heading"><div><h2>物品参考价值 · 从低到高</h2><span id="ranking-subtitle">候选直接显示价格，纠错后自动重排；未定价不当作零元。</span></div>
+<div class="table-controls"><label>显示<select id="filter"><option value="all">全部物资</option><option value="excluded">已排除（可恢复）</option></select></label><label>从低到高<select id="sort"><option value="total">整件 / 整堆总价</option><option value="per_cell">每格价值</option></select></label></div></div>
+<div class="table-wrap"><table><thead><tr><th>编号 / 物品</th><th>数量</th><th>占格</th><th>单价</th><th>总价</th><th>每格价值</th><th>估价依据 / 状态</th><th>纠错</th></tr></thead><tbody id="rows"><tr><td colspan="8" class="table-empty">上传截图后，参考价格直接显示在这里。</td></tr></tbody></table></div>
+</section>
+<section class="panel advice-panel"><div class="panel-heading"><h2>地上拿什么，背包换什么</h2><span>不重复使用同一件物品；实际形状、空位仍需满足</span></div>
+<div id="advice-output" class="advice-grid"><p>上传图片后显示替换价差、地上高价值物品与背包保留项。</p></div>
+<details class="agent-details"><summary>AI 分析与问答 · 解释替换方案、查物品资料、学习实现原理</summary>
+<form id="agent-form"><label>想了解什么？<input id="agent-question" maxlength="500" required value="地上哪些值得拿，背包哪些应保留？整枪和漏识别怎么办？"></label>
+<div class="agent-options"><label><input id="agent-llm" type="checkbox">使用已配置的大模型</label><span id="active-model">未配置模型</span><button id="agent-send" type="submit">分析当前物资</button></div><label id="cloud-consent" hidden><input id="allow-cloud" type="checkbox">允许本次向 DeepSeek 发送问题、物品名称/数量/价格和检索依据（不含图片；可能产生 API 费用）</label></form>
+<div id="agent-output" aria-live="polite"><p>默认仅本地知识检索＋规则比较，无需模型或 API Key。启用模型才运行生成式 RAG，不发送截图。</p></div>
+</details></section>
+<section class="workspace">
+<div class="image-panel panel"><div class="panel-heading"><h2>原图核对</h2><span id="image-caption">点击编号查看对应物品</span></div>
+<div id="image-empty" class="empty"><span class="empty-symbol">＋</span><h3>从一张背包截图开始</h3><p>上传后逐项检查名称、数量和占格。<br>布局不一致时，可手动框选补项。</p></div>
+<div id="image-stage" hidden><img id="full-image" alt="用户上传的物资截图"><div id="overlays"></div><div id="selection" hidden></div></div>
+<div class="image-foot">范围仅限已录入的可见物品。被截断、未展开的容器和整枪隐藏配件不会自动补全。</div>
+<div class="coverage" hidden><input id="coverage" type="checkbox" disabled><label id="stale-label" hidden><input id="accept-stale" type="checkbox">旧价格参考</label></div>
+</div>
+<dialog id="item-dialog" class="editor panel"><div class="panel-heading"><h2>修改这件物品</h2><span id="selected-number">选择一个物品</span><button id="close-item" type="button">关闭</button></div>
+<div id="editor-empty" class="empty compact">上传截图后，点击图片上的编号<br>或上方表格开始纠错。</div>
+<form id="editor-form" hidden>
+<div class="crop-pair"><div><span>截图裁剪</span><img id="crop" alt="选中物品的截图裁剪"></div><div><span>目录参考图</span><img id="icon" alt="目录物品图标"><small id="icon-missing" hidden>暂无图标</small></div></div>
+<p id="row-hint" class="hint"></p><button id="rescan" type="button">重新识别裁剪（含四个旋转方向）</button><label>搜索正确物品<input id="search" type="search" placeholder="输入名称，例如 M80、消音器" autocomplete="off"></label><div id="search-results" class="search-results"></div>
+<div id="chosen" class="chosen">尚未选择目录物品</div>
+<div class="two-fields"><label>数量 / 发数<input id="quantity" type="number" min="1" max="9999" required></label><label>实际占格数<input id="cells" type="number" min="1" max="200" required></label></div>
+<label>所在区域<select id="row-scope"><option value="unassigned">请选择所在区域</option><option value="backpack">背包</option><option value="safe_box">安全箱</option><option value="loot">右侧散落物</option><option value="carried">其他身上装备 / 口袋</option></select></label>
+<details id="price-details"><summary>修正价格 / 整枪估价</summary><p id="special-hint" class="hint">留空时使用本地快照单价；缺价不能按 0 处理。</p>
+<label>手工单价（可选）<input id="manual-unit" type="number" min="0" max="1000000000" placeholder="沿用快照单价"></label>
+<label>当前整件 / 整堆总价（可选）<input id="manual-total" type="number" min="0" max="1000000000" placeholder="整枪需包含枪体、配件和装填弹药"></label>
+<small>填总价后不再乘数量，也不叠加目录价。整枪缩略图不能证明完整配置；未核实前请勿填猜测值。</small></details>
+<div class="checks"><label><input id="locked" type="checkbox">锁定保留，不作为替换候选</label><label><input id="excluded" type="checkbox">排除此项（误检、重复或不在范围内）</label><input id="confirmed" type="checkbox" hidden><label><input id="contribute" type="checkbox">保存这件物品的纠错裁剪，用于以后改进识别</label></div>
+<button id="save" class="button primary" type="submit">保存修改</button><p class="small">修改后自动更新价格、排序和替换建议。</p>
+</form></dialog>
+</section>
+<dialog id="llm-dialog" class="panel model-dialog"><div class="panel-heading"><h2>AI 模型设置</h2><button id="close-llm" type="button">关闭</button></div>
+<form id="llm-form"><label>模型服务<select id="llm-provider"><option value="disabled">关闭，仅本地价格与规则</option><option value="deepseek">DeepSeek 官方 API</option><option value="ollama">本机 Ollama</option></select></label>
+<label id="deepseek-model-field">DeepSeek 模型<select id="llm-deepseek-model"><option value="deepseek-v4-flash">DeepSeek V4 Flash</option><option value="deepseek-v4-pro">DeepSeek V4 Pro</option></select></label>
+<label id="local-model-field" hidden>已安装的本机模型<input id="llm-local-model" placeholder="填写本机 Ollama 模型名"></label>
+<label id="deepseek-key-field">DeepSeek API Key<input id="llm-key" type="password" autocomplete="new-password" placeholder="留空保留已保存密钥；不会回显密钥"></label>
+<p id="key-status" class="small"></p><p>密钥使用当前 Windows 用户加密保存，不写入代码。保存设置不会调用模型。只有主动点击“分析当前物资”才发起一次请求，不自动重试。</p>
+<p>可以：解释替换方案、结合物品资料回答问题。不能：凭空补全隐藏配件、保证 OCR 正确、代替确定性价格计算。</p>
+<button id="save-llm" class="primary" type="submit">保存模型设置</button><div id="llm-message" role="status"></div></form></dialog>
+<footer>个人本机原型 · 不读取游戏内存，不控制游戏，不调用实时价格接口。可信指核对过程可追溯，不保证市场成交价。</footer>
+</main></body></html>

@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "season": "demo",
+  "items": [
+    {
+      "id": "demo_gold_bar",
+      "name": "金条（演示）",
+      "aliases": ["金条"],
+      "category": "collectible",
+      "width": 1,
+      "height": 2,
+      "grade": 5,
+      "stack_limit": 1,
+      "weight": 0.8,
+      "allowed_containers": ["pocket", "chest_rig", "backpack", "safe_box"],
+      "safe_box_allowed": true
+    },
+    {
+      "id": "demo_drive",
+      "name": "固态硬盘（演示）",
+      "aliases": ["固态硬盘"],
+      "category": "collectible",
+      "width": 1,
+      "height": 1,
+      "grade": 4,
+      "stack_limit": 1,
+      "weight": 0.2,
+      "allowed_containers": ["pocket", "chest_rig", "backpack", "safe_box"],
+      "safe_box_allowed": true
+    },
+    {
+      "id": "demo_medkit",
+      "name": "医疗包（演示）",
+      "aliases": ["医疗包"],
+      "category": "medical",
+      "width": 2,
+      "height": 2,
+      "grade": 3,
+      "stack_limit": 1,
+      "weight": 1.0,
+      "allowed_containers": ["chest_rig", "backpack", "safe_box"],
+      "safe_box_allowed": true
+    },
+    {
+      "id": "demo_ammo",
+      "name": "高级弹药（演示）",
+      "aliases": ["高级弹药"],
+      "category": "ammo",
+      "width": 1,
+      "height": 1,
+      "grade": 4,
+      "stack_limit": 60,
+      "weight": 0.01,
+      "caliber": "demo",
+      "allowed_containers": ["pocket", "chest_rig", "backpack", "safe_box", "magazine"],
+      "safe_box_allowed": true
+    },
+    {
+      "id": "demo_rifle",
+      "name": "突击步枪（演示）",
+      "aliases": ["突击步枪"],
+      "category": "weapon",
+      "width": 2,
+      "height": 5,
+      "grade": 4,
+      "stack_limit": 1,
+      "weight": 4.0,
+      "weapon_slots": ["primary", "secondary"],
+      "attachment_slots": {
+        "optic": 1,
+        "muzzle": 1,
+        "rail": 3,
+        "magazine": 1
+      },
+      "caliber": "demo",
+      "allowed_containers": ["backpack", "weapon_slot"],
+      "safe_box_allowed": false
+    },
+    {
+      "id": "demo_optic",
+      "name": "高倍瞄具（演示）",
+      "aliases": ["高倍瞄具"],
+      "category": "attachment",
+      "width": 1,
+      "height": 1,
+      "grade": 4,
+      "stack_limit": 1,
+      "weight": 0.3,
+      "attachment_type": "optic",
+      "compatible_weapons": ["demo_rifle"],
+      "allowed_containers": ["pocket", "chest_rig", "backpack", "safe_box", "weapon_attachment"],
+      "safe_box_allowed": true
+    }
+  ],
+  "containers": [
+    {
+      "id": "pocket",
+      "name": "口袋",
+      "kind": "pocket",
+      "width": 5,
+      "height": 1,
+      "blocked_cells": []
+    },
+    {
+      "id": "backpack",
+      "name": "背包",
+      "kind": "backpack",
+      "width": 9,
+      "height": 5,
+      "blocked_cells": []
+    },
+    {
+      "id": "safe_box",
+      "name": "安全箱",
+      "kind": "safe_box",
+      "width": 3,
+      "height": 3,
+      "blocked_cells": []
+    }
+  ]
+}
+

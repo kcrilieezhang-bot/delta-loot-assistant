@@ -1,0 +1,512 @@
+# 逐文件用途清单：development 第 6 册
+
+根目录：`C:\Users\ASUS\Desktop\delta force`。核对日期：2026-09-08。
+
+每行对应一个实际文件。第三方说明按所属库和文件类型归类，不是逐行源码审计。
+只列举路径，不读取凭证内容。文件清单自身不递归纳入清单。
+
+[返回索引](<C:/Users/ASUS/Desktop/delta force/delta-loot-assistant/docs/file-inventory/INDEX.md>)
+
+| 相对于上述根目录的文件路径 | 用途 |
+|---|---|
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/array_api/_manipulation_functions.py` | NumPy 数组与数值运算：_manipulation_functions.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/array_api/_searching_functions.py` | NumPy 数组与数值运算：_searching_functions.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/array_api/_set_functions.py` | NumPy 数组与数值运算：_set_functions.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/array_api/_sorting_functions.py` | NumPy 数组与数值运算：_sorting_functions.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/array_api/_statistical_functions.py` | NumPy 数组与数值运算：_statistical_functions.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/array_api/_typing.py` | NumPy 数组与数值运算：_typing.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/array_api/_utility_functions.py` | NumPy 数组与数值运算：_utility_functions.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/array_api/linalg.py` | NumPy 数组与数值运算：linalg.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/array_api/setup.py` | NumPy 数组与数值运算：setup.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/array_api/tests/__init__.py` | NumPy 数组与数值运算：__init__.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/array_api/tests/__pycache__/__init__.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/array_api/tests/__pycache__/test_array_object.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/array_api/tests/__pycache__/test_creation_functions.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/array_api/tests/__pycache__/test_data_type_functions.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/array_api/tests/__pycache__/test_elementwise_functions.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/array_api/tests/__pycache__/test_indexing_functions.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/array_api/tests/__pycache__/test_manipulation_functions.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/array_api/tests/__pycache__/test_set_functions.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/array_api/tests/__pycache__/test_sorting_functions.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/array_api/tests/__pycache__/test_validation.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/array_api/tests/test_array_object.py` | NumPy 数组与数值运算：test_array_object.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/array_api/tests/test_creation_functions.py` | NumPy 数组与数值运算：test_creation_functions.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/array_api/tests/test_data_type_functions.py` | NumPy 数组与数值运算：test_data_type_functions.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/array_api/tests/test_elementwise_functions.py` | NumPy 数组与数值运算：test_elementwise_functions.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/array_api/tests/test_indexing_functions.py` | NumPy 数组与数值运算：test_indexing_functions.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/array_api/tests/test_manipulation_functions.py` | NumPy 数组与数值运算：test_manipulation_functions.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/array_api/tests/test_set_functions.py` | NumPy 数组与数值运算：test_set_functions.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/array_api/tests/test_sorting_functions.py` | NumPy 数组与数值运算：test_sorting_functions.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/array_api/tests/test_validation.py` | NumPy 数组与数值运算：test_validation.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/compat/__init__.py` | NumPy 数组与数值运算：__init__.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/compat/__pycache__/__init__.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/compat/__pycache__/py3k.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/compat/__pycache__/setup.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/compat/py3k.py` | NumPy 数组与数值运算：py3k.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/compat/setup.py` | NumPy 数组与数值运算：setup.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/compat/tests/__init__.py` | NumPy 数组与数值运算：__init__.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/compat/tests/__pycache__/__init__.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/compat/tests/__pycache__/test_compat.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/compat/tests/test_compat.py` | NumPy 数组与数值运算：test_compat.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/conftest.py` | NumPy 数组与数值运算：conftest.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/__init__.py` | NumPy 数组与数值运算：__init__.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/__init__.pyi` | NumPy 数组与数值运算：__init__.pyi 的类型接口说明；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/__pycache__/__init__.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/__pycache__/_add_newdocs.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/__pycache__/_add_newdocs_scalars.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/__pycache__/_asarray.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/__pycache__/_dtype.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/__pycache__/_dtype_ctypes.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/__pycache__/_exceptions.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/__pycache__/_internal.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/__pycache__/_machar.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/__pycache__/_methods.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/__pycache__/_string_helpers.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/__pycache__/_type_aliases.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/__pycache__/_ufunc_config.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/__pycache__/arrayprint.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/__pycache__/cversions.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/__pycache__/defchararray.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/__pycache__/einsumfunc.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/__pycache__/fromnumeric.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/__pycache__/function_base.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/__pycache__/getlimits.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/__pycache__/memmap.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/__pycache__/multiarray.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/__pycache__/numeric.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/__pycache__/numerictypes.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/__pycache__/overrides.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/__pycache__/records.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/__pycache__/shape_base.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/__pycache__/umath.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/__pycache__/umath_tests.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/_add_newdocs.py` | NumPy 数组与数值运算：_add_newdocs.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/_add_newdocs_scalars.py` | NumPy 数组与数值运算：_add_newdocs_scalars.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/_asarray.py` | NumPy 数组与数值运算：_asarray.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/_asarray.pyi` | NumPy 数组与数值运算：_asarray.pyi 的类型接口说明；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/_dtype.py` | NumPy 数组与数值运算：_dtype.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/_dtype_ctypes.py` | NumPy 数组与数值运算：_dtype_ctypes.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/_exceptions.py` | NumPy 数组与数值运算：_exceptions.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/_internal.py` | NumPy 数组与数值运算：_internal.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/_internal.pyi` | NumPy 数组与数值运算：_internal.pyi 的类型接口说明；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/_machar.py` | NumPy 数组与数值运算：_machar.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/_methods.py` | NumPy 数组与数值运算：_methods.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/_multiarray_tests.cp311-win_amd64.lib` | NumPy 数组与数值运算：_multiarray_tests.cp311-win_amd64.lib 的链接库；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/_multiarray_tests.cp311-win_amd64.pyd` | NumPy 数组与数值运算：_multiarray_tests.cp311-win_amd64.pyd 的Windows Python 原生扩展；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/_multiarray_umath.cp311-win_amd64.lib` | NumPy 数组与数值运算：_multiarray_umath.cp311-win_amd64.lib 的链接库；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/_multiarray_umath.cp311-win_amd64.pyd` | NumPy 数组与数值运算：_multiarray_umath.cp311-win_amd64.pyd 的Windows Python 原生扩展；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/_operand_flag_tests.cp311-win_amd64.lib` | NumPy 数组与数值运算：_operand_flag_tests.cp311-win_amd64.lib 的链接库；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/_operand_flag_tests.cp311-win_amd64.pyd` | NumPy 数组与数值运算：_operand_flag_tests.cp311-win_amd64.pyd 的Windows Python 原生扩展；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/_rational_tests.cp311-win_amd64.lib` | NumPy 数组与数值运算：_rational_tests.cp311-win_amd64.lib 的链接库；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/_rational_tests.cp311-win_amd64.pyd` | NumPy 数组与数值运算：_rational_tests.cp311-win_amd64.pyd 的Windows Python 原生扩展；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/_simd.cp311-win_amd64.lib` | NumPy 数组与数值运算：_simd.cp311-win_amd64.lib 的链接库；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/_simd.cp311-win_amd64.pyd` | NumPy 数组与数值运算：_simd.cp311-win_amd64.pyd 的Windows Python 原生扩展；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/_string_helpers.py` | NumPy 数组与数值运算：_string_helpers.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/_struct_ufunc_tests.cp311-win_amd64.lib` | NumPy 数组与数值运算：_struct_ufunc_tests.cp311-win_amd64.lib 的链接库；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/_struct_ufunc_tests.cp311-win_amd64.pyd` | NumPy 数组与数值运算：_struct_ufunc_tests.cp311-win_amd64.pyd 的Windows Python 原生扩展；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/_type_aliases.py` | NumPy 数组与数值运算：_type_aliases.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/_type_aliases.pyi` | NumPy 数组与数值运算：_type_aliases.pyi 的类型接口说明；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/_ufunc_config.py` | NumPy 数组与数值运算：_ufunc_config.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/_ufunc_config.pyi` | NumPy 数组与数值运算：_ufunc_config.pyi 的类型接口说明；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/_umath_tests.cp311-win_amd64.lib` | NumPy 数组与数值运算：_umath_tests.cp311-win_amd64.lib 的链接库；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/_umath_tests.cp311-win_amd64.pyd` | NumPy 数组与数值运算：_umath_tests.cp311-win_amd64.pyd 的Windows Python 原生扩展；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/arrayprint.py` | NumPy 数组与数值运算：arrayprint.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/arrayprint.pyi` | NumPy 数组与数值运算：arrayprint.pyi 的类型接口说明；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/cversions.py` | NumPy 数组与数值运算：cversions.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/defchararray.py` | NumPy 数组与数值运算：defchararray.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/defchararray.pyi` | NumPy 数组与数值运算：defchararray.pyi 的类型接口说明；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/einsumfunc.py` | NumPy 数组与数值运算：einsumfunc.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/einsumfunc.pyi` | NumPy 数组与数值运算：einsumfunc.pyi 的类型接口说明；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/fromnumeric.py` | NumPy 数组与数值运算：fromnumeric.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/fromnumeric.pyi` | NumPy 数组与数值运算：fromnumeric.pyi 的类型接口说明；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/function_base.py` | NumPy 数组与数值运算：function_base.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/function_base.pyi` | NumPy 数组与数值运算：function_base.pyi 的类型接口说明；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/getlimits.py` | NumPy 数组与数值运算：getlimits.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/getlimits.pyi` | NumPy 数组与数值运算：getlimits.pyi 的类型接口说明；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/include/numpy/__multiarray_api.c` | NumPy 数组与数值运算：__multiarray_api.c 的原生扩展源文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/include/numpy/__multiarray_api.h` | NumPy 数组与数值运算：__multiarray_api.h 的C/C++ 接口头文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/include/numpy/__ufunc_api.c` | NumPy 数组与数值运算：__ufunc_api.c 的原生扩展源文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/include/numpy/__ufunc_api.h` | NumPy 数组与数值运算：__ufunc_api.h 的C/C++ 接口头文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/include/numpy/_dtype_api.h` | NumPy 数组与数值运算：_dtype_api.h 的C/C++ 接口头文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/include/numpy/_neighborhood_iterator_imp.h` | NumPy 数组与数值运算：_neighborhood_iterator_imp.h 的C/C++ 接口头文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/include/numpy/_numpyconfig.h` | NumPy 数组与数值运算：_numpyconfig.h 的C/C++ 接口头文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/include/numpy/arrayobject.h` | NumPy 数组与数值运算：arrayobject.h 的C/C++ 接口头文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/include/numpy/arrayscalars.h` | NumPy 数组与数值运算：arrayscalars.h 的C/C++ 接口头文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/include/numpy/experimental_dtype_api.h` | NumPy 数组与数值运算：experimental_dtype_api.h 的C/C++ 接口头文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/include/numpy/halffloat.h` | NumPy 数组与数值运算：halffloat.h 的C/C++ 接口头文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/include/numpy/ndarrayobject.h` | NumPy 数组与数值运算：ndarrayobject.h 的C/C++ 接口头文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/include/numpy/ndarraytypes.h` | NumPy 数组与数值运算：ndarraytypes.h 的C/C++ 接口头文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/include/numpy/noprefix.h` | NumPy 数组与数值运算：noprefix.h 的C/C++ 接口头文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h` | NumPy 数组与数值运算：npy_1_7_deprecated_api.h 的C/C++ 接口头文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/include/numpy/npy_3kcompat.h` | NumPy 数组与数值运算：npy_3kcompat.h 的C/C++ 接口头文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/include/numpy/npy_common.h` | NumPy 数组与数值运算：npy_common.h 的C/C++ 接口头文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/include/numpy/npy_cpu.h` | NumPy 数组与数值运算：npy_cpu.h 的C/C++ 接口头文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/include/numpy/npy_endian.h` | NumPy 数组与数值运算：npy_endian.h 的C/C++ 接口头文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/include/numpy/npy_interrupt.h` | NumPy 数组与数值运算：npy_interrupt.h 的C/C++ 接口头文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/include/numpy/npy_math.h` | NumPy 数组与数值运算：npy_math.h 的C/C++ 接口头文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/include/numpy/npy_no_deprecated_api.h` | NumPy 数组与数值运算：npy_no_deprecated_api.h 的C/C++ 接口头文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/include/numpy/npy_os.h` | NumPy 数组与数值运算：npy_os.h 的C/C++ 接口头文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/include/numpy/numpyconfig.h` | NumPy 数组与数值运算：numpyconfig.h 的C/C++ 接口头文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/include/numpy/old_defines.h` | NumPy 数组与数值运算：old_defines.h 的C/C++ 接口头文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/include/numpy/random/bitgen.h` | NumPy 数组与数值运算：bitgen.h 的C/C++ 接口头文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/include/numpy/random/distributions.h` | NumPy 数组与数值运算：distributions.h 的C/C++ 接口头文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/include/numpy/random/libdivide.h` | NumPy 数组与数值运算：libdivide.h 的C/C++ 接口头文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/include/numpy/random/LICENSE.txt` | 所属第三方库的许可证/版权说明，发布时应保留 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/include/numpy/ufuncobject.h` | NumPy 数组与数值运算：ufuncobject.h 的C/C++ 接口头文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/include/numpy/utils.h` | NumPy 数组与数值运算：utils.h 的C/C++ 接口头文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/lib/npy-pkg-config/mlib.ini` | NumPy 数组与数值运算：mlib.ini 的配套资源/配置文件（仅按路径分类，未验证内部内容）；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/lib/npy-pkg-config/npymath.ini` | NumPy 数组与数值运算：npymath.ini 的配套资源/配置文件（仅按路径分类，未验证内部内容）；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/lib/npymath.lib` | NumPy 数组与数值运算：npymath.lib 的链接库；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/memmap.py` | NumPy 数组与数值运算：memmap.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/memmap.pyi` | NumPy 数组与数值运算：memmap.pyi 的类型接口说明；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/multiarray.py` | NumPy 数组与数值运算：multiarray.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/multiarray.pyi` | NumPy 数组与数值运算：multiarray.pyi 的类型接口说明；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/numeric.py` | NumPy 数组与数值运算：numeric.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/numeric.pyi` | NumPy 数组与数值运算：numeric.pyi 的类型接口说明；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/numerictypes.py` | NumPy 数组与数值运算：numerictypes.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/numerictypes.pyi` | NumPy 数组与数值运算：numerictypes.pyi 的类型接口说明；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/overrides.py` | NumPy 数组与数值运算：overrides.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/records.py` | NumPy 数组与数值运算：records.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/records.pyi` | NumPy 数组与数值运算：records.pyi 的类型接口说明；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/shape_base.py` | NumPy 数组与数值运算：shape_base.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/shape_base.pyi` | NumPy 数组与数值运算：shape_base.pyi 的类型接口说明；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/__init__.py` | NumPy 数组与数值运算：__init__.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/__pycache__/__init__.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/__pycache__/_locales.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/__pycache__/test__exceptions.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/__pycache__/test_abc.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/__pycache__/test_api.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/__pycache__/test_argparse.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/__pycache__/test_array_coercion.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/__pycache__/test_array_interface.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/__pycache__/test_arraymethod.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/__pycache__/test_arrayprint.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/__pycache__/test_casting_floatingpoint_errors.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/__pycache__/test_casting_unittests.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/__pycache__/test_conversion_utils.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/__pycache__/test_cpu_dispatcher.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/__pycache__/test_cpu_features.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/__pycache__/test_custom_dtypes.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/__pycache__/test_cython.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/__pycache__/test_datetime.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/__pycache__/test_defchararray.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/__pycache__/test_deprecations.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/__pycache__/test_dlpack.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/__pycache__/test_dtype.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/__pycache__/test_einsum.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/__pycache__/test_errstate.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/__pycache__/test_extint128.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/__pycache__/test_function_base.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/__pycache__/test_getlimits.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/__pycache__/test_half.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/__pycache__/test_hashtable.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/__pycache__/test_indexerrors.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/__pycache__/test_indexing.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/__pycache__/test_item_selection.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/__pycache__/test_limited_api.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/__pycache__/test_longdouble.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/__pycache__/test_machar.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/__pycache__/test_mem_overlap.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/__pycache__/test_mem_policy.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/__pycache__/test_memmap.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/__pycache__/test_multiarray.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/__pycache__/test_nditer.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/__pycache__/test_nep50_promotions.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/__pycache__/test_numeric.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/__pycache__/test_numerictypes.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/__pycache__/test_numpy_2_0_compat.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/__pycache__/test_overrides.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/__pycache__/test_print.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/__pycache__/test_protocols.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/__pycache__/test_records.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/__pycache__/test_regression.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/__pycache__/test_scalar_ctors.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/__pycache__/test_scalar_methods.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/__pycache__/test_scalarbuffer.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/__pycache__/test_scalarinherit.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/__pycache__/test_scalarmath.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/__pycache__/test_scalarprint.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/__pycache__/test_shape_base.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/__pycache__/test_simd.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/__pycache__/test_simd_module.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/__pycache__/test_strings.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/__pycache__/test_ufunc.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/__pycache__/test_umath.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/__pycache__/test_umath_accuracy.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/__pycache__/test_umath_complex.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/__pycache__/test_unicode.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/_locales.py` | NumPy 数组与数值运算：_locales.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/data/astype_copy.pkl` | NumPy 数组与数值运算：astype_copy.pkl 的配套资源/配置文件（仅按路径分类，未验证内部内容）；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/data/generate_umath_validation_data.cpp` | NumPy 数组与数值运算：generate_umath_validation_data.cpp 的C++ 扩展源文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/data/numpy_2_0_array.pkl` | NumPy 数组与数值运算：numpy_2_0_array.pkl 的配套资源/配置文件（仅按路径分类，未验证内部内容）；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/data/recarray_from_file.fits` | NumPy 数组与数值运算：recarray_from_file.fits 的配套资源/配置文件（仅按路径分类，未验证内部内容）；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/data/umath-validation-set-arccos.csv` | NumPy 数组与数值运算：umath-validation-set-arccos.csv 的表格资源/测试数据；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/data/umath-validation-set-arccosh.csv` | NumPy 数组与数值运算：umath-validation-set-arccosh.csv 的表格资源/测试数据；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/data/umath-validation-set-arcsin.csv` | NumPy 数组与数值运算：umath-validation-set-arcsin.csv 的表格资源/测试数据；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/data/umath-validation-set-arcsinh.csv` | NumPy 数组与数值运算：umath-validation-set-arcsinh.csv 的表格资源/测试数据；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/data/umath-validation-set-arctan.csv` | NumPy 数组与数值运算：umath-validation-set-arctan.csv 的表格资源/测试数据；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/data/umath-validation-set-arctanh.csv` | NumPy 数组与数值运算：umath-validation-set-arctanh.csv 的表格资源/测试数据；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/data/umath-validation-set-cbrt.csv` | NumPy 数组与数值运算：umath-validation-set-cbrt.csv 的表格资源/测试数据；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/data/umath-validation-set-cos.csv` | NumPy 数组与数值运算：umath-validation-set-cos.csv 的表格资源/测试数据；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/data/umath-validation-set-cosh.csv` | NumPy 数组与数值运算：umath-validation-set-cosh.csv 的表格资源/测试数据；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/data/umath-validation-set-exp.csv` | NumPy 数组与数值运算：umath-validation-set-exp.csv 的表格资源/测试数据；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/data/umath-validation-set-exp2.csv` | NumPy 数组与数值运算：umath-validation-set-exp2.csv 的表格资源/测试数据；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/data/umath-validation-set-expm1.csv` | NumPy 数组与数值运算：umath-validation-set-expm1.csv 的表格资源/测试数据；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/data/umath-validation-set-log.csv` | NumPy 数组与数值运算：umath-validation-set-log.csv 的表格资源/测试数据；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/data/umath-validation-set-log10.csv` | NumPy 数组与数值运算：umath-validation-set-log10.csv 的表格资源/测试数据；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/data/umath-validation-set-log1p.csv` | NumPy 数组与数值运算：umath-validation-set-log1p.csv 的表格资源/测试数据；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/data/umath-validation-set-log2.csv` | NumPy 数组与数值运算：umath-validation-set-log2.csv 的表格资源/测试数据；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/data/umath-validation-set-README.txt` | NumPy 数组与数值运算：umath-validation-set-README.txt 的说明/字典/数据资源；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/data/umath-validation-set-sin.csv` | NumPy 数组与数值运算：umath-validation-set-sin.csv 的表格资源/测试数据；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/data/umath-validation-set-sinh.csv` | NumPy 数组与数值运算：umath-validation-set-sinh.csv 的表格资源/测试数据；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/data/umath-validation-set-tan.csv` | NumPy 数组与数值运算：umath-validation-set-tan.csv 的表格资源/测试数据；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/data/umath-validation-set-tanh.csv` | NumPy 数组与数值运算：umath-validation-set-tanh.csv 的表格资源/测试数据；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/examples/cython/__pycache__/setup.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/examples/cython/checks.pyx` | NumPy 数组与数值运算：checks.pyx 的Cython 扩展源文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/examples/cython/meson.build` | NumPy 数组与数值运算：meson.build 的配套资源/配置文件（仅按路径分类，未验证内部内容）；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/examples/cython/setup.py` | NumPy 数组与数值运算：setup.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/examples/limited_api/__pycache__/setup.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/examples/limited_api/limited_api.c` | NumPy 数组与数值运算：limited_api.c 的原生扩展源文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/examples/limited_api/setup.py` | NumPy 数组与数值运算：setup.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/test__exceptions.py` | NumPy 数组与数值运算：test__exceptions.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/test_abc.py` | NumPy 数组与数值运算：test_abc.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/test_api.py` | NumPy 数组与数值运算：test_api.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/test_argparse.py` | NumPy 数组与数值运算：test_argparse.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/test_array_coercion.py` | NumPy 数组与数值运算：test_array_coercion.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/test_array_interface.py` | NumPy 数组与数值运算：test_array_interface.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/test_arraymethod.py` | NumPy 数组与数值运算：test_arraymethod.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/test_arrayprint.py` | NumPy 数组与数值运算：test_arrayprint.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/test_casting_floatingpoint_errors.py` | NumPy 数组与数值运算：test_casting_floatingpoint_errors.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/test_casting_unittests.py` | NumPy 数组与数值运算：test_casting_unittests.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/test_conversion_utils.py` | NumPy 数组与数值运算：test_conversion_utils.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/test_cpu_dispatcher.py` | NumPy 数组与数值运算：test_cpu_dispatcher.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/test_cpu_features.py` | NumPy 数组与数值运算：test_cpu_features.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/test_custom_dtypes.py` | NumPy 数组与数值运算：test_custom_dtypes.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/test_cython.py` | NumPy 数组与数值运算：test_cython.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/test_datetime.py` | NumPy 数组与数值运算：test_datetime.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/test_defchararray.py` | NumPy 数组与数值运算：test_defchararray.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/test_deprecations.py` | NumPy 数组与数值运算：test_deprecations.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/test_dlpack.py` | NumPy 数组与数值运算：test_dlpack.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/test_dtype.py` | NumPy 数组与数值运算：test_dtype.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/test_einsum.py` | NumPy 数组与数值运算：test_einsum.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/test_errstate.py` | NumPy 数组与数值运算：test_errstate.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/test_extint128.py` | NumPy 数组与数值运算：test_extint128.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/test_function_base.py` | NumPy 数组与数值运算：test_function_base.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/test_getlimits.py` | NumPy 数组与数值运算：test_getlimits.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/test_half.py` | NumPy 数组与数值运算：test_half.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/test_hashtable.py` | NumPy 数组与数值运算：test_hashtable.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/test_indexerrors.py` | NumPy 数组与数值运算：test_indexerrors.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/test_indexing.py` | NumPy 数组与数值运算：test_indexing.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/test_item_selection.py` | NumPy 数组与数值运算：test_item_selection.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/test_limited_api.py` | NumPy 数组与数值运算：test_limited_api.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/test_longdouble.py` | NumPy 数组与数值运算：test_longdouble.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/test_machar.py` | NumPy 数组与数值运算：test_machar.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/test_mem_overlap.py` | NumPy 数组与数值运算：test_mem_overlap.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/test_mem_policy.py` | NumPy 数组与数值运算：test_mem_policy.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/test_memmap.py` | NumPy 数组与数值运算：test_memmap.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/test_multiarray.py` | NumPy 数组与数值运算：test_multiarray.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/test_nditer.py` | NumPy 数组与数值运算：test_nditer.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/test_nep50_promotions.py` | NumPy 数组与数值运算：test_nep50_promotions.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/test_numeric.py` | NumPy 数组与数值运算：test_numeric.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/test_numerictypes.py` | NumPy 数组与数值运算：test_numerictypes.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/test_numpy_2_0_compat.py` | NumPy 数组与数值运算：test_numpy_2_0_compat.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/test_overrides.py` | NumPy 数组与数值运算：test_overrides.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/test_print.py` | NumPy 数组与数值运算：test_print.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/test_protocols.py` | NumPy 数组与数值运算：test_protocols.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/test_records.py` | NumPy 数组与数值运算：test_records.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/test_regression.py` | NumPy 数组与数值运算：test_regression.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/test_scalar_ctors.py` | NumPy 数组与数值运算：test_scalar_ctors.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/test_scalar_methods.py` | NumPy 数组与数值运算：test_scalar_methods.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/test_scalarbuffer.py` | NumPy 数组与数值运算：test_scalarbuffer.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/test_scalarinherit.py` | NumPy 数组与数值运算：test_scalarinherit.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/test_scalarmath.py` | NumPy 数组与数值运算：test_scalarmath.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/test_scalarprint.py` | NumPy 数组与数值运算：test_scalarprint.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/test_shape_base.py` | NumPy 数组与数值运算：test_shape_base.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/test_simd.py` | NumPy 数组与数值运算：test_simd.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/test_simd_module.py` | NumPy 数组与数值运算：test_simd_module.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/test_strings.py` | NumPy 数组与数值运算：test_strings.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/test_ufunc.py` | NumPy 数组与数值运算：test_ufunc.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/test_umath.py` | NumPy 数组与数值运算：test_umath.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/test_umath_accuracy.py` | NumPy 数组与数值运算：test_umath_accuracy.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/test_umath_complex.py` | NumPy 数组与数值运算：test_umath_complex.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/tests/test_unicode.py` | NumPy 数组与数值运算：test_unicode.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/umath.py` | NumPy 数组与数值运算：umath.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/core/umath_tests.py` | NumPy 数组与数值运算：umath_tests.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/ctypeslib.py` | NumPy 数组与数值运算：ctypeslib.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/ctypeslib.pyi` | NumPy 数组与数值运算：ctypeslib.pyi 的类型接口说明；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/__init__.py` | NumPy 数组与数值运算：__init__.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/__init__.pyi` | NumPy 数组与数值运算：__init__.pyi 的类型接口说明；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/__pycache__/__init__.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/__pycache__/_shell_utils.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/__pycache__/armccompiler.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/__pycache__/ccompiler.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/__pycache__/ccompiler_opt.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/__pycache__/conv_template.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/__pycache__/core.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/__pycache__/cpuinfo.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/__pycache__/exec_command.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/__pycache__/extension.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/__pycache__/from_template.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/__pycache__/fujitsuccompiler.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/__pycache__/intelccompiler.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/__pycache__/lib2def.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/__pycache__/line_endings.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/__pycache__/log.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/__pycache__/mingw32ccompiler.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/__pycache__/misc_util.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/__pycache__/msvc9compiler.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/__pycache__/msvccompiler.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/__pycache__/npy_pkg_config.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/__pycache__/numpy_distribution.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/__pycache__/pathccompiler.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/__pycache__/setup.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/__pycache__/system_info.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/__pycache__/unixccompiler.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/_shell_utils.py` | NumPy 数组与数值运算：_shell_utils.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/armccompiler.py` | NumPy 数组与数值运算：armccompiler.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/ccompiler.py` | NumPy 数组与数值运算：ccompiler.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/ccompiler_opt.py` | NumPy 数组与数值运算：ccompiler_opt.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/checks/cpu_asimd.c` | NumPy 数组与数值运算：cpu_asimd.c 的原生扩展源文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/checks/cpu_asimddp.c` | NumPy 数组与数值运算：cpu_asimddp.c 的原生扩展源文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/checks/cpu_asimdfhm.c` | NumPy 数组与数值运算：cpu_asimdfhm.c 的原生扩展源文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/checks/cpu_asimdhp.c` | NumPy 数组与数值运算：cpu_asimdhp.c 的原生扩展源文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/checks/cpu_avx.c` | NumPy 数组与数值运算：cpu_avx.c 的原生扩展源文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/checks/cpu_avx2.c` | NumPy 数组与数值运算：cpu_avx2.c 的原生扩展源文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/checks/cpu_avx512_clx.c` | NumPy 数组与数值运算：cpu_avx512_clx.c 的原生扩展源文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/checks/cpu_avx512_cnl.c` | NumPy 数组与数值运算：cpu_avx512_cnl.c 的原生扩展源文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/checks/cpu_avx512_icl.c` | NumPy 数组与数值运算：cpu_avx512_icl.c 的原生扩展源文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/checks/cpu_avx512_knl.c` | NumPy 数组与数值运算：cpu_avx512_knl.c 的原生扩展源文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/checks/cpu_avx512_knm.c` | NumPy 数组与数值运算：cpu_avx512_knm.c 的原生扩展源文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/checks/cpu_avx512_skx.c` | NumPy 数组与数值运算：cpu_avx512_skx.c 的原生扩展源文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/checks/cpu_avx512_spr.c` | NumPy 数组与数值运算：cpu_avx512_spr.c 的原生扩展源文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/checks/cpu_avx512cd.c` | NumPy 数组与数值运算：cpu_avx512cd.c 的原生扩展源文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/checks/cpu_avx512f.c` | NumPy 数组与数值运算：cpu_avx512f.c 的原生扩展源文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/checks/cpu_f16c.c` | NumPy 数组与数值运算：cpu_f16c.c 的原生扩展源文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/checks/cpu_fma3.c` | NumPy 数组与数值运算：cpu_fma3.c 的原生扩展源文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/checks/cpu_fma4.c` | NumPy 数组与数值运算：cpu_fma4.c 的原生扩展源文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/checks/cpu_neon.c` | NumPy 数组与数值运算：cpu_neon.c 的原生扩展源文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/checks/cpu_neon_fp16.c` | NumPy 数组与数值运算：cpu_neon_fp16.c 的原生扩展源文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/checks/cpu_neon_vfpv4.c` | NumPy 数组与数值运算：cpu_neon_vfpv4.c 的原生扩展源文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/checks/cpu_popcnt.c` | NumPy 数组与数值运算：cpu_popcnt.c 的原生扩展源文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/checks/cpu_sse.c` | NumPy 数组与数值运算：cpu_sse.c 的原生扩展源文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/checks/cpu_sse2.c` | NumPy 数组与数值运算：cpu_sse2.c 的原生扩展源文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/checks/cpu_sse3.c` | NumPy 数组与数值运算：cpu_sse3.c 的原生扩展源文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/checks/cpu_sse41.c` | NumPy 数组与数值运算：cpu_sse41.c 的原生扩展源文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/checks/cpu_sse42.c` | NumPy 数组与数值运算：cpu_sse42.c 的原生扩展源文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/checks/cpu_ssse3.c` | NumPy 数组与数值运算：cpu_ssse3.c 的原生扩展源文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/checks/cpu_vsx.c` | NumPy 数组与数值运算：cpu_vsx.c 的原生扩展源文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/checks/cpu_vsx2.c` | NumPy 数组与数值运算：cpu_vsx2.c 的原生扩展源文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/checks/cpu_vsx3.c` | NumPy 数组与数值运算：cpu_vsx3.c 的原生扩展源文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/checks/cpu_vsx4.c` | NumPy 数组与数值运算：cpu_vsx4.c 的原生扩展源文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/checks/cpu_vx.c` | NumPy 数组与数值运算：cpu_vx.c 的原生扩展源文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/checks/cpu_vxe.c` | NumPy 数组与数值运算：cpu_vxe.c 的原生扩展源文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/checks/cpu_vxe2.c` | NumPy 数组与数值运算：cpu_vxe2.c 的原生扩展源文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/checks/cpu_xop.c` | NumPy 数组与数值运算：cpu_xop.c 的原生扩展源文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/checks/extra_avx512bw_mask.c` | NumPy 数组与数值运算：extra_avx512bw_mask.c 的原生扩展源文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/checks/extra_avx512dq_mask.c` | NumPy 数组与数值运算：extra_avx512dq_mask.c 的原生扩展源文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/checks/extra_avx512f_reduce.c` | NumPy 数组与数值运算：extra_avx512f_reduce.c 的原生扩展源文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/checks/extra_vsx3_half_double.c` | NumPy 数组与数值运算：extra_vsx3_half_double.c 的原生扩展源文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/checks/extra_vsx4_mma.c` | NumPy 数组与数值运算：extra_vsx4_mma.c 的原生扩展源文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/checks/extra_vsx_asm.c` | NumPy 数组与数值运算：extra_vsx_asm.c 的原生扩展源文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/checks/test_flags.c` | NumPy 数组与数值运算：test_flags.c 的原生扩展源文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/command/__init__.py` | NumPy 数组与数值运算：__init__.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/command/__pycache__/__init__.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/command/__pycache__/autodist.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/command/__pycache__/bdist_rpm.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/command/__pycache__/build.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/command/__pycache__/build_clib.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/command/__pycache__/build_ext.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/command/__pycache__/build_py.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/command/__pycache__/build_scripts.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/command/__pycache__/build_src.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/command/__pycache__/config.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/command/__pycache__/config_compiler.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/command/__pycache__/develop.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/command/__pycache__/egg_info.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/command/__pycache__/install.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/command/__pycache__/install_clib.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/command/__pycache__/install_data.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/command/__pycache__/install_headers.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/command/__pycache__/sdist.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/command/autodist.py` | NumPy 数组与数值运算：autodist.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/command/bdist_rpm.py` | NumPy 数组与数值运算：bdist_rpm.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/command/build.py` | NumPy 数组与数值运算：build.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/command/build_clib.py` | NumPy 数组与数值运算：build_clib.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/command/build_ext.py` | NumPy 数组与数值运算：build_ext.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/command/build_py.py` | NumPy 数组与数值运算：build_py.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/command/build_scripts.py` | NumPy 数组与数值运算：build_scripts.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/command/build_src.py` | NumPy 数组与数值运算：build_src.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/command/config.py` | NumPy 数组与数值运算：config.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/command/config_compiler.py` | NumPy 数组与数值运算：config_compiler.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/command/develop.py` | NumPy 数组与数值运算：develop.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/command/egg_info.py` | NumPy 数组与数值运算：egg_info.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/command/install.py` | NumPy 数组与数值运算：install.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/command/install_clib.py` | NumPy 数组与数值运算：install_clib.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/command/install_data.py` | NumPy 数组与数值运算：install_data.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/command/install_headers.py` | NumPy 数组与数值运算：install_headers.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/command/sdist.py` | NumPy 数组与数值运算：sdist.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/conv_template.py` | NumPy 数组与数值运算：conv_template.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/core.py` | NumPy 数组与数值运算：core.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/cpuinfo.py` | NumPy 数组与数值运算：cpuinfo.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/exec_command.py` | NumPy 数组与数值运算：exec_command.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/extension.py` | NumPy 数组与数值运算：extension.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/fcompiler/__init__.py` | NumPy 数组与数值运算：__init__.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/fcompiler/__pycache__/__init__.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/fcompiler/__pycache__/absoft.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/fcompiler/__pycache__/arm.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/fcompiler/__pycache__/compaq.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/fcompiler/__pycache__/environment.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/fcompiler/__pycache__/fujitsu.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/fcompiler/__pycache__/g95.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/fcompiler/__pycache__/gnu.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/fcompiler/__pycache__/hpux.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/fcompiler/__pycache__/ibm.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/fcompiler/__pycache__/intel.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/fcompiler/__pycache__/lahey.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/fcompiler/__pycache__/mips.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/fcompiler/__pycache__/nag.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/fcompiler/__pycache__/none.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/fcompiler/__pycache__/nv.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/fcompiler/__pycache__/pathf95.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/fcompiler/__pycache__/pg.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/fcompiler/__pycache__/sun.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/fcompiler/__pycache__/vast.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/fcompiler/absoft.py` | NumPy 数组与数值运算：absoft.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/fcompiler/arm.py` | NumPy 数组与数值运算：arm.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/fcompiler/compaq.py` | NumPy 数组与数值运算：compaq.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/fcompiler/environment.py` | NumPy 数组与数值运算：environment.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/fcompiler/fujitsu.py` | NumPy 数组与数值运算：fujitsu.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/fcompiler/g95.py` | NumPy 数组与数值运算：g95.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/fcompiler/gnu.py` | NumPy 数组与数值运算：gnu.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/fcompiler/hpux.py` | NumPy 数组与数值运算：hpux.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/fcompiler/ibm.py` | NumPy 数组与数值运算：ibm.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/fcompiler/intel.py` | NumPy 数组与数值运算：intel.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/fcompiler/lahey.py` | NumPy 数组与数值运算：lahey.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/fcompiler/mips.py` | NumPy 数组与数值运算：mips.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/fcompiler/nag.py` | NumPy 数组与数值运算：nag.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/fcompiler/none.py` | NumPy 数组与数值运算：none.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/fcompiler/nv.py` | NumPy 数组与数值运算：nv.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/fcompiler/pathf95.py` | NumPy 数组与数值运算：pathf95.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/fcompiler/pg.py` | NumPy 数组与数值运算：pg.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/fcompiler/sun.py` | NumPy 数组与数值运算：sun.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/fcompiler/vast.py` | NumPy 数组与数值运算：vast.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/from_template.py` | NumPy 数组与数值运算：from_template.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/fujitsuccompiler.py` | NumPy 数组与数值运算：fujitsuccompiler.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/intelccompiler.py` | NumPy 数组与数值运算：intelccompiler.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/lib2def.py` | NumPy 数组与数值运算：lib2def.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/line_endings.py` | NumPy 数组与数值运算：line_endings.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/log.py` | NumPy 数组与数值运算：log.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/mingw/gfortran_vs2003_hack.c` | NumPy 数组与数值运算：gfortran_vs2003_hack.c 的原生扩展源文件；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/mingw32ccompiler.py` | NumPy 数组与数值运算：mingw32ccompiler.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/misc_util.py` | NumPy 数组与数值运算：misc_util.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/msvc9compiler.py` | NumPy 数组与数值运算：msvc9compiler.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/msvccompiler.py` | NumPy 数组与数值运算：msvccompiler.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/npy_pkg_config.py` | NumPy 数组与数值运算：npy_pkg_config.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/numpy_distribution.py` | NumPy 数组与数值运算：numpy_distribution.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/pathccompiler.py` | NumPy 数组与数值运算：pathccompiler.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/setup.py` | NumPy 数组与数值运算：setup.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/system_info.py` | NumPy 数组与数值运算：system_info.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/tests/__init__.py` | NumPy 数组与数值运算：__init__.py 的模块实现；非本项目手写物品规则 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/tests/__pycache__/__init__.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+| `delta-loot-assistant/.venv-test/Lib/site-packages/numpy/distutils/tests/__pycache__/test_build_ext.cpython-311.pyc` | 对应 Python 模块的自动编译字节码缓存；无需手动编辑 |
+

@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "region": "cn",
+  "season": "demo",
+  "generated_at": "2026-07-23T00:00:00+08:00",
+  "source": "演示数据，不代表实际市场价格",
+  "prices": {
+    "demo_gold_bar": {"unit_price": 120000, "durability_factor": 1.0},
+    "demo_drive": {"unit_price": 48000, "durability_factor": 1.0},
+    "demo_medkit": {"unit_price": 32000, "durability_factor": 1.0},
+    "demo_ammo": {"unit_price": 1200, "durability_factor": 1.0},
+    "demo_rifle": {"unit_price": 180000, "durability_factor": 1.0},
+    "demo_optic": {"unit_price": 86000, "durability_factor": 1.0}
+  }
+}
